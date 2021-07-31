@@ -2,7 +2,6 @@ import { ChainId, TokenAmount } from '@uniswap/sdk'
 import React, { useState } from 'react'
 import { Text } from 'rebass'
 import { NavLink } from 'react-router-dom'
-import { darken } from 'polished'
 import { useTranslation } from 'react-i18next'
 
 import styled from 'styled-components'
@@ -43,6 +42,7 @@ const HeaderFrame = styled.div`
   position: relative;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem;
+  border-bottom: 1px solid #c4c4c4;
   z-index: 2;
   ${({ theme }) => theme.mediaWidth.upToMedium`
     grid-template-columns: 1fr;
@@ -167,7 +167,8 @@ const NetworkCard = styled(YellowCard)`
     overflow: hidden;
     text-overflow: ellipsis;
     flex-shrink: 1;
-  `};
+  `}
+  color: #ffffff;
 `
 
 const BalanceText = styled(Text)`
@@ -208,21 +209,22 @@ const StyledNavLink = styled(NavLink).attrs({
   outline: none;
   cursor: pointer;
   text-decoration: none;
-  color: ${({ theme }) => theme.text2};
+  color: #ffffff;
   font-size: 1rem;
   width: fit-content;
   margin: 0 12px;
-  font-weight: 500;
+  font-weight: 200;
 
   &.${activeClassName} {
     border-radius: 12px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text1};
+    color: #ffffff;
   }
 
   :hover,
   :focus {
-    color: ${({ theme }) => darken(0.1, theme.text1)};
+    color: #ffffff;
+    font-weight: 400;
   }
 `
 
@@ -235,21 +237,23 @@ const StyledExternalLink = styled(ExternalLink).attrs({
   outline: none;
   cursor: pointer;
   text-decoration: none;
-  color: ${({ theme }) => theme.text2};
+  color: #ffffff;
   font-size: 1rem;
   width: fit-content;
   margin: 0 12px;
-  font-weight: 500;
+  font-weight: 200;
 
   &.${activeClassName} {
     border-radius: 12px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text1};
+    color: #ffffff;
   }
 
   :hover,
   :focus {
-    color: ${({ theme }) => darken(0.1, theme.text1)};
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
   }
 
   ${({ theme }) => theme.mediaWidth.upToExtraSmall`
@@ -294,7 +298,7 @@ export default function Header() {
       <HeaderRow>
         <Title href=".">
           <UniIcon>
-            <img width={'24px'} src={isDark ? LogoDark : Logo} alt="logo" />
+            <img width={'56px'} height={'56px'} src={isDark ? LogoDark : Logo} alt="logo" />
           </UniIcon>
         </Title>
         <HeaderLinks>
@@ -327,12 +331,20 @@ export default function Header() {
       </HeaderRow>
       <HeaderControls>
         <HeaderElement>
-          <HideSmall>
+          
+          <UNIWrapper >
+              <UNIAmount active={!!account && !availableClaim} style={{ pointerEvents: 'auto' }}>
+                <TYPE.white padding="0 2px">
+                  {claimTxn && !claimTxn?.receipt ? <Dots>Claiming UNI</Dots> : <HideSmall>
             {chainId && NETWORK_LABELS[chainId] && (
               <NetworkCard title={NETWORK_LABELS[chainId]}>{NETWORK_LABELS[chainId]}</NetworkCard>
             )}
-          </HideSmall>
-          {availableClaim && !showClaimPopup && (
+          </HideSmall>}
+                </TYPE.white>
+              </UNIAmount>
+              <CardNoise />
+          </UNIWrapper>
+          {/* {availableClaim && !showClaimPopup && (
             <UNIWrapper onClick={toggleClaimModal}>
               <UNIAmount active={!!account && !availableClaim} style={{ pointerEvents: 'auto' }}>
                 <TYPE.white padding="0 2px">
@@ -367,7 +379,7 @@ export default function Header() {
               </UNIAmount>
               <CardNoise />
             </UNIWrapper>
-          )}
+          )}  */}
           <AccountElement active={!!account} style={{ pointerEvents: 'auto' }}>
             {account && userEthBalance ? (
               <BalanceText style={{ flexShrink: 0 }} pl="0.75rem" pr="0.5rem" fontWeight={500}>
