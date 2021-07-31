@@ -2,7 +2,12 @@
     font-family: 'jojobaregular';
     src: url('jojoba-webfont.woff2') format('woff2'),
          url('jojoba-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pleasewritemeasongmedium';
+    src: url('please_write_me_a_song-webfont.woff2') format('woff2'),
+         url('please_write_me_a_song-webfont.woff') format('woff');
 
 }
