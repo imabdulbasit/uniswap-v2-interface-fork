@@ -9,7 +9,7 @@ import styled, {
 import { useIsDarkMode } from '../state/user/hooks'
 import { Text, TextProps } from 'rebass'
 import { Colors } from './styled'
-
+import '../fonts/font.css'
 export * from './components'
 
 const MEDIA_WIDTHS = {
@@ -177,12 +177,13 @@ export const TYPE = {
 
 export const FixedGlobalStyle = createGlobalStyle`
 html, input, textarea, button {
-  font-family: 'Inter', sans-serif;
+  
+  font-family: 'pleasewritemeasongmedium', sans-serif;
   font-display: fallback;
 }
 @supports (font-variation-settings: normal) {
   html, input, textarea, button {
-    font-family: 'Inter var', sans-serif;
+    font-family: 'pleasewritemeasongmedium', sans-serif;
   }
 }
 
