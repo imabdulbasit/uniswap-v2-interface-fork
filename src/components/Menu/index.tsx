@@ -20,25 +20,28 @@ const StyledMenuButton = styled.button`
   width: 100%;
   height: 100%;
   border: none;
-  background-color: transparent;
+  background-color: #676BFF;
   margin: 0;
   padding: 0;
   height: 35px;
-  background-color: ${({ theme }) => theme.bg3};
-
+  background: #676BFF;
+  opacity: 0.9
+  // background-color: ${({ theme }) => theme.bg3};
   padding: 0.15rem 0.5rem;
   border-radius: 0.5rem;
 
-  :hover,
+  :hover, 
   :focus {
     cursor: pointer;
     outline: none;
-    background-color: ${({ theme }) => theme.bg4};
+    background-color: #676BFF;
+    opacity: 1;
   }
 
   svg {
     margin-top: 2px;
   }
+  color: #ffffff;
 `
 
 const StyledMenu = styled.div`

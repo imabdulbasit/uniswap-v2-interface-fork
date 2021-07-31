@@ -132,16 +132,17 @@ const UNIAmount = styled(AccountElement)`
   color: white;
   padding: 4px 8px;
   height: 36px;
-  font-weight: 500;
+  font-weight: 200;
   background-color: ${({ theme }) => theme.bg3};
-  background: radial-gradient(174.47% 188.91% at 1.84% 0%, #ff007a 0%, #2172e5 100%), #edeef2;
+  background: #FFB800;
+  // background: radial-gradient(174.47% 188.91% at 1.84% 0%, #ff007a 0%, #2172e5 100%), #edeef2;
 `
 
 const UNIWrapper = styled.span`
   width: fit-content;
   position: relative;
   cursor: pointer;
-
+  font-weight: 200;
   :hover {
     opacity: 0.8;
   }
@@ -169,6 +170,7 @@ const NetworkCard = styled(YellowCard)`
     flex-shrink: 1;
   `}
   color: #ffffff;
+  font-weight: 400;
 `
 
 const BalanceText = styled(Text)`
