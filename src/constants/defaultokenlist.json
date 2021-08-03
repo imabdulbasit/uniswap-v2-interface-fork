@@ -1,0 +1,201 @@
+{
+    "name": "defaultList",
+    "timestamp": "2020-12-18T16:05:23.585Z",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "patch": 13
+    },
+    "tags": {},
+    "logoURI": "https://cryptologos.cc/logos/polygon-matic-logo.png",
+    "keywords": [
+      "uniswap",
+      "default"
+    ],
+    "tokens": [
+      {
+        "name": "0xBitcoin Token",
+        "address": "0x71B821aa52a49F32EEd535fCA6Eb5aa130085978",
+        "symbol": "0xBTC",
+        "decimals": 8,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB6eD7644C69416d67B522e20bC294A9a9B405B31/logo.png"
+      },
+      {
+        "name": "Compound",
+        "address": "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c",
+        "symbol": "COMP",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png"
+      },
+      {
+        "name": "Dai Stablecoin",
+        "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+        "symbol": "DAI",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+      },
+      {
+        "name": "EASY",
+        "address": "0xDb3b3b147A030F032633f6C4BEBf9a2fB5a882B5",
+        "symbol": "EASY",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/sameepsi/quickswap-interface/master/assets/easyfi-token.png"
+      },
+      {
+        "name": "Easy DAI",
+        "address": "0xa1C09C8F4f5D03fcC27b456475d53d988e98D7C5",
+        "symbol": "eDAI",
+        "decimals": 8,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/sameepsi/quickswap-interface/master/assets/easyfi-token.png"
+      },
+      {
+        "name": "Ether",
+        "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "symbol": "ETH",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+      },
+      {
+        "name": "Easy USDC",
+        "address": "0x4eBdE54ba404bE158262EDe801744b92b9878c61",
+        "symbol": "eUSDC",
+        "decimals": 8,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/sameepsi/quickswap-interface/master/assets/easyfi-token.png"
+      },
+      {
+        "name": "Easy USDT",
+        "address": "0xfc39742Fe9420a7Af23757Fc7E78D1c3AE4A9474",
+        "symbol": "eUSDT",
+        "decimals": 8,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/sameepsi/quickswap-interface/master/assets/easyfi-token.png"
+      },
+      {
+        "name": "IG Gold",
+        "address": "0xe6FC6C7CB6d2c31b359A49A33eF08aB87F4dE7CE",
+        "symbol": "IGG",
+        "decimals": 6,
+        "chainId": 137,
+        "logoURI": "https://assets.coingecko.com/coins/images/7697/small/N7aEdYrY_400x400.png?1561587437"
+      },
+      {
+        "name": "EthLend Token",
+        "address": "0x313d009888329C9d1cf4f75CA3f32566335bd604",
+        "symbol": "LEND",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03/logo.png"
+      },
+      {
+        "name": "ChainLink Token",
+        "address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+        "symbol": "LINK",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png"
+      },
+      {
+        "name": "Decentraland MANA",
+        "address": "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4",
+        "symbol": "MANA",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0F5D2fB29fb7d3CFeE444a200298f468908cC942/logo.png"
+      },
+      {
+        "name": "OM",
+        "address": "0x9f5755D47fB80100E7ee65Bf7e136FCA85Dd9334",
+        "symbol": "OM",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://etherscan.io/token/images/om_32.png"
+      },
+      {
+        "name": "Uniswap",
+        "address": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
+        "symbol": "UNI",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/sameepsi/quickswap-interface/master/public/favicon1.png"
+      },
+      {
+        "name": "USD Coin",
+        "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "symbol": "USDC",
+        "decimals": 6,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+      },
+      {
+        "name": "Tether USD",
+        "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "symbol": "USDT",
+        "decimals": 6,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+      },
+      {
+        "name": "Wrapped BTC",
+        "address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "symbol": "WBTC",
+        "decimals": 8,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
+      },
+      {
+        "name": "Wrapped Matic",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "symbol": "WMATIC",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png"
+      },
+      {
+        "name": "yearn.finance",
+        "address": "0xDA537104D6A5edd53c6fBba9A898708E465260b6",
+        "symbol": "YFI",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png"
+      },
+      {
+        "name": "Dai Stablecoin",
+        "address": "0xcB1e72786A6eb3b44C2a2429e317c8a2462CFeb1",
+        "symbol": "DAI",
+        "decimals": 18,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+      },
+      {
+        "name": "Ether",
+        "address": "0x714550C2C1Ea08688607D86ed8EeF4f5E4F22323",
+        "symbol": "ETH",
+        "decimals": 18,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+      },
+      {
+        "name": "Tether USD",
+        "address": "0x3813e82e6f7098b9583FC0F33a962D02018B6803",
+        "symbol": "USDT",
+        "decimals": 6,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+      },
+      {
+        "name": "Wrapped Matic",
+        "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
+        "symbol": "WMATIC",
+        "decimals": 18,
+        "chainId": 80001,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png"
+      }
+    ]
+  }
